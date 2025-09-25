@@ -7,22 +7,22 @@
 
 :root {
     --primary-color: #1a1a1a;
-    --secondary-color: #2E8B57; /* Enhanced green */
-    --accent-color: #F0F8FF; /* Light blue accent */
-    --accent-gold: #ffd900; /* Gold accent */
-    --accent-teal: #20B2AA; /* Teal accent */
+    --secondary-color: #2563eb; /* Primary blue */
+    --accent-color: #eff6ff; /* Light blue accent */
+    --accent-gold: #fbbf24; /* Warm amber accent */
+    --accent-teal: #0ea5e9; /* Sky blue accent */
     --text-dark: #1a1a1a;
     --text-light: #666;
     --text-white: #ffffff;
     --background-light: #fafafa;
     --background-dark: #1a1a1a;
     --border-color: #e0e0e0;
-    --shadow: 0 8px 32px rgba(46, 139, 87, 0.1);
-    --shadow-hover: 0 16px 48px rgba(46, 139, 87, 0.2);
+    --shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
+    --shadow-hover: 0 16px 48px rgba(37, 99, 235, 0.2);
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
     --shadow-card-hover: 0 8px 30px rgba(0, 0, 0, 0.12);
-    --gradient-primary: linear-gradient(135deg, #2E8B57, #3CB371);
-    --gradient-secondary: linear-gradient(135deg, #20B2AA, #48D1CC);
+    --gradient-primary: linear-gradient(135deg, #2563eb, #3b82f6);
+    --gradient-secondary: linear-gradient(135deg, #0ea5e9, #06b6d4);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --border-radius: 12px;
 }
@@ -165,7 +165,7 @@ p {
     backdrop-filter: blur(20px);
     z-index: 1000;
     transition: var(--transition);
-    background: rgba(46, 139, 87, 0.95);
+    background: rgba(37, 99, 235, 0.95);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -284,7 +284,7 @@ a.cta-button{
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(77, 150, 109, 0.637), rgba(32, 178, 170, 0.6));
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.7), rgba(14, 165, 233, 0.6));
     z-index: 1;
 }
 
@@ -438,7 +438,7 @@ a.cta-button{
     margin-bottom: 1.5rem;
     font-size: 0.9rem;
     font-weight: 500;
-    box-shadow: 0 4px 15px rgba(46, 139, 87, 0.3);
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
 }
 
 .section-badge i {
@@ -475,7 +475,7 @@ a.cta-button{
     box-shadow: var(--shadow-card);
     transition: var(--transition);
     text-align: center;
-    border: 1px solid rgba(46, 139, 87, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.1);
     position: relative;
     overflow: hidden;
 }
@@ -499,7 +499,7 @@ a.cta-button{
 .service-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-card-hover);
-    border-color: rgba(46, 139, 87, 0.3);
+    border-color: rgba(37, 99, 235, 0.3);
 }
 
 .service-icon {
@@ -511,7 +511,7 @@ a.cta-button{
     align-items: center;
     justify-content: center;
     margin: 0 auto 2rem;
-    box-shadow: 0 8px 25px rgba(46, 139, 87, 0.3);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
     transition: var(--transition);
 }
 
@@ -557,7 +557,7 @@ a.cta-button{
     color: var(--secondary-color);
     font-weight: bold;
     font-size: 1.1rem;
-    background: rgba(46, 139, 87, 0.1);
+    background: rgba(37, 99, 235, 0.1);
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -567,11 +567,11 @@ a.cta-button{
 }
 
 .service-price {
-    background: rgba(46, 139, 87, 0.05);
+    background: rgba(37, 99, 235, 0.05);
     border-radius: var(--border-radius);
     padding: 1rem;
     margin-top: 1rem;
-    border: 1px solid rgba(46, 139, 87, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .service-price span {
@@ -629,7 +629,7 @@ a.cta-button{
     gap: 1.5rem;
     align-items: flex-start;
     padding: 1.5rem;
-    background: rgba(46, 139, 87, 0.05);
+    background: rgba(37, 99, 235, 0.05);
     border-radius: var(--border-radius);
     border-left: 4px solid var(--secondary-color);
     transition: var(--transition);
@@ -742,7 +742,7 @@ a.cta-button{
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-card);
     transition: var(--transition);
-    border: 1px solid rgba(46, 139, 87, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.1);
     position: relative;
 }
 
@@ -760,7 +760,7 @@ a.cta-button{
 .testimonial-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-card-hover);
-    border-color: rgba(46, 139, 87, 0.3);
+    border-color: rgba(37, 99, 235, 0.3);
 }
 
 .testimonial-content {
@@ -779,7 +779,7 @@ a.cta-button{
     justify-content: space-between;
     align-items: center;
     padding-top: 1.5rem;
-    border-top: 1px solid rgba(46, 139, 87, 0.1);
+    border-top: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .author-info h4 {
@@ -911,7 +911,7 @@ a.cta-button{
 .pricing-card.featured {
     transform: scale(1.05);
     border: 2px solid var(--secondary-color);
-    box-shadow: 0 20px 60px rgba(46, 139, 87, 0.2);
+    box-shadow: 0 20px 60px rgba(37, 99, 235, 0.2);
 }
 
 .pricing-card.featured::before {
@@ -1001,7 +1001,7 @@ a.cta-button{
 .pricing-features i {
     color: var(--secondary-color);
     font-size: 1.1rem;
-    background: rgba(46, 139, 87, 0.1);
+    background: rgba(37, 99, 235, 0.1);
     width: 24px;
     height: 24px;
     border-radius: 50%;
@@ -1055,7 +1055,7 @@ a.cta-button{
     align-items: center;
     gap: 1.5rem;
     padding: 1.5rem;
-    background: rgba(46, 139, 87, 0.05);
+    background: rgba(37, 99, 235, 0.05);
     border-radius: var(--border-radius);
     border-left: 4px solid var(--secondary-color);
     transition: var(--transition);
@@ -1076,7 +1076,7 @@ a.cta-button{
     justify-content: center;
     color: var(--text-white);
     font-size: 1.4rem;
-    box-shadow: 0 6px 20px rgba(46, 139, 87, 0.3);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3);
 }
 
 .contact-item h4 {
@@ -1095,7 +1095,7 @@ a.cta-button{
     padding: 3rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-card);
-    border: 1px solid rgba(46, 139, 87, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .contact-form h3 {
@@ -1127,7 +1127,7 @@ a.cta-button{
 .form-group textarea:focus {
     outline: none;
     border-color: var(--secondary-color);
-    box-shadow: 0 0 0 4px rgba(46, 139, 87, 0.1);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
     transform: translateY(-2px);
 }
 
@@ -1511,4 +1511,104 @@ html {
         font-size: 0.8rem;
         padding: 6px 12px;
     }
+}
+
+/* Notification System Styles */
+.notification {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+.notification-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.notification-content i {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.notification-message {
+    flex: 1;
+    font-weight: 500;
+}
+
+.notification-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+.notification-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* Form validation styles */
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+    border-color: #ef4444 !important;
+    box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.1) !important;
+}
+
+.error-message {
+    color: #ef4444;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    animation: slideInUp 0.3s ease;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fa-spinner {
+    animation: spin 1s linear infinite;
 }
